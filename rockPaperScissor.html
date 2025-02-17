@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper and Scissors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onkeydown="playUsingKeyboard(event)">
+        <p class="title">Rock Paper and Scissors</p>
+        <div>
+        <button onclick="game('Rock')" class="moveButton"><img src="rock-emoji.png" class="playerMove"></button>
+        <button onclick="game('Paper')" class="moveButton"><img src="paper-emoji.png" class="playerMove"></button>
+        <button onclick="game('Scissor')" class="moveButton"><img src="scissor-emoji.png" class="playerMove"></button>
+        </div>
+        <p class="showResult"></p>
+        <p class="showPick"></p>
+        <p class="showScore"></p>
+        <button onclick="reset()" class="reset">Reset Score</button>
+        <button onclick="autoPlay()" class="auto-play">Auto Play</button>
+        <script src="script.js"></script>
+    </body>
+</html>
