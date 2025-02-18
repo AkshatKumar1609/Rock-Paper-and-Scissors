@@ -54,75 +54,85 @@ body {
 
 /* Mobile Responsive Design */
 @media (max-width: 600px) {
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
     .title {
-        font-size: 24px;
-        margin-top: 15px;
+        font-size: 28px;
+        margin-top: 18px;
     }
 
     .moveButton {
-        width: 80px;
-        height: 80px;
-        margin-right: 5px;
+        width: 100px;
+        height: 100px;
+        margin-right: 8px;
     }
 
     .playerMove {
-        height: 40px;
+        height: 45px;
+    }
+
+    .showResult {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .showScore {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .reset, .auto-play {
+        font-size: 16px;
+        padding: 7px 14px;
+        margin-top: 18px;
+    }
+
+    .move-icon {
+        height: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+
+    .moveButton {
+        width: 90px;
+        height: 90px;
+        margin-right: 6px;
+    }
+
+    .playerMove {
+        height: 35px;
     }
 
     .showResult {
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     .showScore {
         font-size: 18px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     .reset, .auto-play {
         font-size: 14px;
         padding: 6px 12px;
-        margin-top: 15px;
+        margin-top: 12px;
     }
 
     .move-icon {
-        height: 40px;
-    }
-}
-
-@media (max-width: 400px) {
-    .title {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-
-    .moveButton {
-        width: 70px;
-        height: 70px;
-        margin-right: 5px;
-    }
-
-    .playerMove {
-        height: 30px;
-    }
-
-    .showResult {
-        font-size: 18px;
-        margin-top: 20px;
-    }
-
-    .showScore {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-
-    .reset, .auto-play {
-        font-size: 12px;
-        padding: 5px 10px;
-        margin-top: 10px;
-    }
-
-    .move-icon {
-        height: 30px;
+        height: 35px;
     }
 }
